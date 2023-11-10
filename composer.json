@@ -1,0 +1,35 @@
+{
+    "name": "gustavo/sdkzoop",
+    "description": "pagamentos Zoop",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "zoop",
+        "payment",
+        "gateway "
+    ],
+    "authors": [
+        {
+            "name": "gustavohosilva10",
+            "email": "gus.tiule@hotmail.com"
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true
+    },
+    "require": {
+        "php": ">=7.2",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "psr/log": "^1.1",
+        "guzzlehttp/guzzle": ">=6.2"
+    },
+    "require-dev": {
+        "zendframework/zend-http": ">=2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zoop\\": "src/"
+        }
+    }
+}
